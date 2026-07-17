@@ -1,0 +1,2 @@
+public class Hypotenuse {
+}
