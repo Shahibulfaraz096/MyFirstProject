@@ -15,15 +15,14 @@ public class circumference {
         radius = scanner.nextDouble();
 
 
+        circumference = 2 * Math.PI * radius;
+        area = Math.PI * Math.pow(radius, 2);
+        volume = (4.0/3.0) * Math.PI * Math.pow(radius, 3);
 
-        circumference = 2 * 3.1416 * radius;
-        area = 3.1416 * radius * radius;
-        volume = (4.0/3.0) * 3.1416 * radius * radius * radius;
 
-
-        System.out.print("The circumference of the circle is: " + circumference);
-        System.out.print("\nThe area of the circle is: " + area);
-        System.out.print("\nThe volume of the circle is: " + volume);
+        System.out.print("The circumference of the circle is: " + circumference + "cm");
+        System.out.print("\nThe area of the circle is: " + area + "cm2");
+        System.out.print("\nThe volume of the circle is: " + volume + "cm3");
 
         scanner.close();
     }
