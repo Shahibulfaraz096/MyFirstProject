@@ -20,7 +20,7 @@ public class Car2 {
     }
 
     void setModel (String model) {
-        this.model = model;
+
     }
 
       void setColor(String color) {
