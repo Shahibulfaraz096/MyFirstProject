@@ -6,7 +6,8 @@ public class main3 {
 
         System.out.println(Car3.model);
          System.out.println(Car3.year);
-          System.out.println(Car3.engine);
+          System.out.println(Car3.engine.type);
 
+          car3.start();
     }
 }
